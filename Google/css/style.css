@@ -1,0 +1,51 @@
+/* Special thanks to http://www.cssreset.com/how-to-keep-footer-at-bottom-of-page-with-css/ for helping me get the footer right */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  min-height: 100%;
+  position: relative
+}
+#header {
+  padding: 10px;
+  background-color: orange;
+}
+#content {
+  padding: 10px;
+  padding-bottom: 20px;
+}
+#search {
+  text-align: center;
+}
+
+#logo {
+  height: 100px;
+  margin: 10px;
+}
+.space {
+  margin-top: 10%;
+}
+input {
+  margin: 10px;
+}
+#footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: gray;
+  height: 20px;
+}
+#footer-left {
+  margin-left: 10px;
+  float: left;
+  text-align: left
+}
+#footer-right {
+  margin-right: 10px;
+  text-align: right;
+  float: right;
+}
